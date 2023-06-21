@@ -1,0 +1,51 @@
+.jogo h2{
+    font-size: 2.5em;
+}
+.pontos{
+    display: flex;
+    justify-content: center;
+}
+.pontos span{
+    font-weight: bold;
+}
+.dica span{
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.palavraContainer{
+    margin: 1.5em;
+    padding: .5em;
+    border: 15px solid yellow;
+    display: flex;
+}
+
+.letra, 
+.quadradoBranco{
+    font-size: 70px;
+    line-height: 1.5;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.letraContainer p{
+    margin-bottom: 1em;
+}
+.letraContainer form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.letraContainer input{
+    height: 30px;
+    width: 30px;
+    margin-bottom: .6em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
